@@ -8,7 +8,7 @@ import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { Email, Feedback } from "@mui/icons-material";
 import {addDoc, collection} from "firebase/firestore"
 import {database} from '../firebase-config'
-import { feedbackModel } from "./feedback-model";
+
 const AddVendor = () => {
   const [formVisibility, setFormVisibilty] = useState(false);
   const [email, setEmail] = useState("");
