@@ -22,7 +22,10 @@ const Navbar = () => {
                     
                     <Link className='LinkText' href="/stats">View stats</Link>
                   </Button>
-                  
+                  <Button variant='text'  sx={{color:'white'}}>
+                    
+                    <Link className='LinkText' href="/logout">Log out</Link>
+                  </Button>
                 </Toolbar>
             </AppBar>
         </div>

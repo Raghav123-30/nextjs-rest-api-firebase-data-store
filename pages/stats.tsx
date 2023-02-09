@@ -50,10 +50,10 @@ const FetchStats = () => {
     <div>
       <Card
         sx={{
-          width: "80%",
+          width: "50%",
           margin: "0 auto",
           marginTop: "2rem",
-          padding: "5rem",
+          padding: "3rem",
         }}
       >
         <TableContainer>
